@@ -1,0 +1,1006 @@
+[
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Fernando",
+    "fullName": "Fernando Abad",
+    "id": 30417,
+    "lastName": "Abad",
+    "ownership": {
+      "percentOwned": 0.0026971262120210914
+    },
+    "proTeamId": 0,
+    "universeId": 0
+  },
+  {
+    "defaultPositionId": 1,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      14,
+      16,
+      17
+    ],
+    "firstName": "Andrew",
+    "fullName": "Andrew Abbott",
+    "id": 4414528,
+    "lastName": "Abbott",
+    "ownership": {
+      "percentOwned": 68.22236134391557
+    },
+    "proTeamId": 17,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Cory",
+    "fullName": "Cory Abbott",
+    "id": 41328,
+    "lastName": "Abbott",
+    "ownership": {
+      "percentOwned": 0.0026938929446943777
+    },
+    "proTeamId": 12,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 1,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      14,
+      16,
+      17
+    ],
+    "firstName": "Imani",
+    "fullName": "Imani Abdullah",
+    "id": 40977,
+    "lastName": "Abdullah",
+    "ownership": {
+      "percentOwned": 0.0033659153943506478
+    },
+    "proTeamId": 19,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 1,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      14,
+      16,
+      17
+    ],
+    "firstName": "Mick",
+    "fullName": "Mick Abel",
+    "id": 4718970,
+    "lastName": "Abel",
+    "ownership": {
+      "percentOwned": 2.187283641081139
+    },
+    "proTeamId": 9,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Philip",
+    "fullName": "Philip Abner",
+    "id": 4926295,
+    "lastName": "Abner",
+    "ownership": {
+      "percentOwned": 0.0033694311726294368
+    },
+    "proTeamId": 29,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 6,
+    "droppable": true,
+    "eligibleSlots": [
+      4,
+      6,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "CJ",
+    "fullName": "CJ Abrams",
+    "id": 42402,
+    "lastName": "Abrams",
+    "ownership": {
+      "percentOwned": 84.64110431507356
+    },
+    "proTeamId": 20,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Albert",
+    "fullName": "Albert Abreu",
+    "id": 36041,
+    "lastName": "Abreu",
+    "ownership": {
+      "percentOwned": 0.0006738862345258874
+    },
+    "proTeamId": 17,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Bryan",
+    "fullName": "Bryan Abreu",
+    "id": 41208,
+    "lastName": "Abreu",
+    "ownership": {
+      "percentOwned": 34.45493157149599
+    },
+    "proTeamId": 18,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 3,
+    "droppable": true,
+    "eligibleSlots": [
+      1,
+      7,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Jose",
+    "fullName": "Jose Abreu",
+    "id": 33095,
+    "lastName": "Abreu",
+    "ownership": {
+      "percentOwned": 0.0356161253687613
+    },
+    "proTeamId": 0,
+    "universeId": 0
+  },
+  {
+    "defaultPositionId": 4,
+    "droppable": true,
+    "eligibleSlots": [
+      2,
+      6,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Osvaldo",
+    "fullName": "Osvaldo Manuel Abreu",
+    "id": 35288,
+    "lastName": "Abreu",
+    "ownership": {
+      "percentOwned": 0.0026857173551055485
+    },
+    "proTeamId": 20,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 9,
+    "droppable": true,
+    "eligibleSlots": [
+      10,
+      5,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Wilyer",
+    "fullName": "Wilyer Abreu",
+    "id": 4990055,
+    "lastName": "Abreu",
+    "ownership": {
+      "percentOwned": 35.44070824992947
+    },
+    "proTeamId": 2,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 8,
+    "droppable": true,
+    "eligibleSlots": [
+      8,
+      9,
+      5,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Andy",
+    "fullName": "Andy Acevedo",
+    "id": 5150933,
+    "lastName": "Acevedo",
+    "ownership": {
+      "percentOwned": 0.0013428586775527742
+    },
+    "proTeamId": 20,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Domingo",
+    "fullName": "Domingo Acevedo",
+    "id": 35010,
+    "lastName": "Acevedo",
+    "ownership": {
+      "percentOwned": 0.0020225582665327284
+    },
+    "proTeamId": 11,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 1,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Dane",
+    "fullName": "Dane Acker",
+    "id": 4321454,
+    "lastName": "Acker",
+    "ownership": {
+      "percentOwned": 0.0006734732361735944
+    },
+    "proTeamId": 13,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 6,
+    "droppable": true,
+    "eligibleSlots": [
+      2,
+      4,
+      6,
+      19,
+      12,
+      16,
+      17,
+      3,
+      7
+    ],
+    "firstName": "Maximo",
+    "fullName": "Maximo Acosta",
+    "id": 42413,
+    "lastName": "Acosta",
+    "ownership": {
+      "percentOwned": 0.031556967039755066
+    },
+    "proTeamId": 28,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 4,
+    "droppable": true,
+    "eligibleSlots": [
+      2,
+      4,
+      6,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Victor",
+    "fullName": "Victor Acosta",
+    "id": 42780,
+    "lastName": "Acosta",
+    "ownership": {
+      "percentOwned": 0.004028576032658323
+    },
+    "proTeamId": 25,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Garrett",
+    "fullName": "Garrett Acton",
+    "id": 4424444,
+    "lastName": "Acton",
+    "ownership": {
+      "percentOwned": 0.002696744355376971
+    },
+    "proTeamId": 27,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 6,
+    "droppable": true,
+    "eligibleSlots": [
+      4,
+      6,
+      19,
+      12,
+      16,
+      17,
+      2
+    ],
+    "firstName": "Luisangel",
+    "fullName": "Luisangel Acuna",
+    "id": 42411,
+    "lastName": "Acuna",
+    "ownership": {
+      "percentOwned": 1.2260052773283021
+    },
+    "proTeamId": 21,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 9,
+    "droppable": true,
+    "eligibleSlots": [
+      10,
+      5,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Ronald",
+    "fullName": "Ronald Acuna Jr.",
+    "id": 36185,
+    "lastName": "Acuna Jr.",
+    "ownership": {
+      "percentOwned": 98.8619425532772
+    },
+    "proTeamId": 15,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Jason",
+    "fullName": "Jason Adam",
+    "id": 32145,
+    "lastName": "Adam",
+    "ownership": {
+      "percentOwned": 20.51836435032701
+    },
+    "proTeamId": 25,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 6,
+    "droppable": true,
+    "eligibleSlots": [
+      4,
+      6,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Willy",
+    "fullName": "Willy Adames",
+    "id": 33675,
+    "lastName": "Adames",
+    "ownership": {
+      "percentOwned": 67.72657996683294
+    },
+    "proTeamId": 26,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Austin",
+    "fullName": "Austin Adams",
+    "id": 36046,
+    "lastName": "Adams",
+    "ownership": {
+      "percentOwned": 0.0047192708052424355
+    },
+    "proTeamId": 2,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 9,
+    "droppable": true,
+    "eligibleSlots": [
+      9,
+      10,
+      5,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Jordyn",
+    "fullName": "Jordyn Adams",
+    "id": 41200,
+    "lastName": "Adams",
+    "ownership": {
+      "percentOwned": 0.011419359172432324
+    },
+    "proTeamId": 0,
+    "universeId": 0
+  },
+  {
+    "defaultPositionId": 2,
+    "droppable": true,
+    "eligibleSlots": [
+      0,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Riley",
+    "fullName": "Riley Adams",
+    "id": 40655,
+    "lastName": "Adams",
+    "ownership": {
+      "percentOwned": 0.08863283846665189
+    },
+    "proTeamId": 20,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 1,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      14,
+      16,
+      17,
+      15
+    ],
+    "firstName": "Travis",
+    "fullName": "Travis Adams",
+    "id": 4424951,
+    "lastName": "Adams",
+    "ownership": {
+      "percentOwned": 0.01953072384903424
+    },
+    "proTeamId": 9,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Ty",
+    "fullName": "Ty Adcock",
+    "id": 5137056,
+    "lastName": "Adcock",
+    "ownership": {
+      "percentOwned": 0.005391053546639352
+    },
+    "proTeamId": 25,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 9,
+    "droppable": true,
+    "eligibleSlots": [
+      10,
+      5,
+      12,
+      16,
+      17,
+      9
+    ],
+    "firstName": "Jo",
+    "fullName": "Jo Adell",
+    "id": 40854,
+    "lastName": "Adell",
+    "ownership": {
+      "percentOwned": 20.009135364608525
+    },
+    "proTeamId": 3,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 4,
+    "droppable": true,
+    "eligibleSlots": [
+      2,
+      6,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Aramis",
+    "fullName": "Aramis Ademan",
+    "id": 40924,
+    "lastName": "Ademan",
+    "ownership": {
+      "percentOwned": 0.0013428586775527742
+    },
+    "proTeamId": 16,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 9,
+    "droppable": true,
+    "eligibleSlots": [
+      10,
+      5,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Micker",
+    "fullName": "Micker Adolfo",
+    "id": 33781,
+    "lastName": "Adolfo",
+    "ownership": {
+      "percentOwned": 0.0026869080405723116
+    },
+    "proTeamId": 4,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Joan",
+    "fullName": "Joan Adon",
+    "id": 4684360,
+    "lastName": "Adon",
+    "ownership": {
+      "percentOwned": 0.0033658700774150114
+    },
+    "proTeamId": 20,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Melvin",
+    "fullName": "Melvin Adon",
+    "id": 40979,
+    "lastName": "Adon",
+    "ownership": {
+      "percentOwned": 0.0
+    },
+    "proTeamId": 2,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 5,
+    "droppable": true,
+    "eligibleSlots": [
+      2,
+      3,
+      6,
+      7,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Ehire",
+    "fullName": "Ehire Adrianza",
+    "id": 30471,
+    "lastName": "Adrianza",
+    "ownership": {
+      "percentOwned": 0.004032095480020967
+    },
+    "proTeamId": 0,
+    "universeId": 0
+  },
+  {
+    "defaultPositionId": 1,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      14,
+      16,
+      17
+    ],
+    "firstName": "Jake",
+    "fullName": "Jake Agnos",
+    "id": 4085136,
+    "lastName": "Agnos",
+    "ownership": {
+      "percentOwned": 0.0013469646152395578
+    },
+    "proTeamId": 10,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Zach",
+    "fullName": "Zach Agnos",
+    "id": 5207459,
+    "lastName": "Agnos",
+    "ownership": {
+      "percentOwned": 0.04649815018228623
+    },
+    "proTeamId": 27,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Dario",
+    "fullName": "Dario Agrazal",
+    "id": 39813,
+    "lastName": "Agrazal",
+    "ownership": {
+      "percentOwned": 0.0006741860888442427
+    },
+    "proTeamId": 6,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 1,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      14,
+      16,
+      17
+    ],
+    "firstName": "Julian",
+    "fullName": "Julian Aguiar",
+    "id": 5195257,
+    "lastName": "Aguiar",
+    "ownership": {
+      "percentOwned": 0.0040390984732207764
+    },
+    "proTeamId": 17,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 3,
+    "droppable": true,
+    "eligibleSlots": [
+      1,
+      7,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Jesus",
+    "fullName": "Jesus Aguilar",
+    "id": 32132,
+    "lastName": "Aguilar",
+    "ownership": {
+      "percentOwned": 0.00604550248201463
+    },
+    "proTeamId": 11,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Miguel",
+    "fullName": "Miguel Aguilar",
+    "id": 38199,
+    "lastName": "Aguilar",
+    "ownership": {
+      "percentOwned": 0.0006738862345258874
+    },
+    "proTeamId": 29,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 3,
+    "droppable": true,
+    "eligibleSlots": [
+      1,
+      7,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Ryan",
+    "fullName": "Ryan Aguilar",
+    "id": 38681,
+    "lastName": "Aguilar",
+    "ownership": {
+      "percentOwned": 0.0020151674940048765
+    },
+    "proTeamId": 3,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 5,
+    "droppable": true,
+    "eligibleSlots": [
+      3,
+      7,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Starlin",
+    "fullName": "Starlin Aguilar",
+    "id": 4919917,
+    "lastName": "Aguilar",
+    "ownership": {
+      "percentOwned": 0.0020151674940048765
+    },
+    "proTeamId": 12,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 6,
+    "droppable": true,
+    "eligibleSlots": [
+      4,
+      6,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Nick",
+    "fullName": "Nick Ahmed",
+    "id": 32355,
+    "lastName": "Ahmed",
+    "ownership": {
+      "percentOwned": 0.01007509302669228
+    },
+    "proTeamId": 0,
+    "universeId": 0
+  },
+  {
+    "defaultPositionId": 1,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      14,
+      16,
+      17
+    ],
+    "firstName": "Brady",
+    "fullName": "Brady Aiken",
+    "id": 34953,
+    "lastName": "Aiken",
+    "ownership": {
+      "percentOwned": 0.0020204469228593362
+    },
+    "proTeamId": 5,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17,
+      14
+    ],
+    "firstName": "Keegan",
+    "fullName": "Keegan Akin",
+    "id": 36724,
+    "lastName": "Akin",
+    "ownership": {
+      "percentOwned": 4.259044745561812
+    },
+    "proTeamId": 1,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 8,
+    "droppable": true,
+    "eligibleSlots": [
+      9,
+      5,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Shogo",
+    "fullName": "Shogo Akiyama",
+    "id": 42390,
+    "lastName": "Akiyama",
+    "ownership": {
+      "percentOwned": 0.007390138867427627
+    },
+    "proTeamId": 0,
+    "universeId": 0
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "R.J.",
+    "fullName": "R.J. Alaniz",
+    "id": 32443,
+    "lastName": "Alaniz",
+    "ownership": {
+      "percentOwned": 0.0013477724690517748
+    },
+    "proTeamId": 15,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Tomas",
+    "fullName": "Tomas Alastre",
+    "id": 41062,
+    "lastName": "Alastre",
+    "ownership": {
+      "percentOwned": 0.0006738862345258874
+    },
+    "proTeamId": 20,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 5,
+    "droppable": true,
+    "eligibleSlots": [
+      2,
+      3,
+      6,
+      7,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Hanser",
+    "fullName": "Hanser Alberto",
+    "id": 32839,
+    "lastName": "Alberto",
+    "ownership": {
+      "percentOwned": 0.003358612490008128
+    },
+    "proTeamId": 4,
+    "universeId": 1
+  },
+  {
+    "defaultPositionId": 11,
+    "droppable": true,
+    "eligibleSlots": [
+      13,
+      15,
+      16,
+      17
+    ],
+    "firstName": "Jose",
+    "fullName": "Jose Albertos",
+    "id": 40990,
+    "lastName": "Albertos",
+    "ownership": {
+      "percentOwned": 0.0020216587035776622
+    },
+    "proTeamId": 16,
+    "universeId": 2
+  },
+  {
+    "defaultPositionId": 4,
+    "droppable": true,
+    "eligibleSlots": [
+      2,
+      6,
+      19,
+      12,
+      16,
+      17
+    ],
+    "firstName": "Ozzie",
+    "fullName": "Ozzie Albies",
+    "id": 33783,
+    "lastName": "Albies",
+    "ownership": {
+      "percentOwned": 75.51613704571547
+    },
+    "proTeamId": 15,
+    "universeId": 2
+  }
+]
