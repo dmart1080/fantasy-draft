@@ -30,19 +30,20 @@ HEADERS = {
 
 # Baseball Savant leaderboard CSV export (xStats - expected stats based on Statcast)
 # These aren't projections per se, but xBA/xSLG/xwOBA are strong forward-looking indicators
+# Updated to 2025 actuals
 SAVANT_BATTER_URL = (
     "https://baseballsavant.mlb.com/leaderboard/expected_statistics"
-    "?type=batter&year=2024&position=&team=&min=100&csv=true"
+    "?type=batter&year=2025&position=&team=&min=100&csv=true"
 )
 
 SAVANT_PITCHER_URL = (
     "https://baseballsavant.mlb.com/leaderboard/expected_statistics"
-    "?type=pitcher&year=2024&position=&team=&min=50&csv=true"
+    "?type=pitcher&year=2025&position=&team=&min=50&csv=true"
 )
 
-# Baseball Reference standard stats (2024 actuals as projection baseline)
-BBREF_BATTER_URL = "https://www.baseball-reference.com/leagues/majors/2024-standard-batting.shtml"
-BBREF_PITCHER_URL = "https://www.baseball-reference.com/leagues/majors/2024-standard-pitching.shtml"
+# Baseball Reference standard stats (2025 actuals as projection baseline)
+BBREF_BATTER_URL = "https://www.baseball-reference.com/leagues/majors/2025-standard-batting.shtml"
+BBREF_PITCHER_URL = "https://www.baseball-reference.com/leagues/majors/2025-standard-pitching.shtml"
 
 BATTER_COL_MAP = {
     "Name":        "Name",
@@ -114,7 +115,7 @@ def fetch_savant_csv(url: str, col_map: dict, pos_label: str) -> pd.DataFrame:
             df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
 
     df["Position"] = pos_label
-    df["Source"] = "BBSavant_2024"
+    df["Source"] = "BBSavant_2025"
     return df
 
 
@@ -185,15 +186,15 @@ def fetch_bbref_table(url: str, col_map: dict, pos_label: str) -> pd.DataFrame:
     df = df.drop_duplicates(subset="Name", keep="first")
 
     df["Position"] = pos_label
-    df["Source"] = "BBRef_2024"
+    df["Source"] = "BBRef_2025"
     return df
 
 
 def fetch_bbref_projections(out_path: str = "data/bbref_projections.csv") -> pd.DataFrame:
     all_dfs = []
 
-    # Primary: Baseball Savant xStats (2024 actuals + expected stats)
-    print("Fetching Baseball Savant batter xStats (2024)...")
+    # Primary: Baseball Savant xStats (2025 actuals + expected stats)
+    print("Fetching Baseball Savant batter xStats (2025)...")
     try:
         df = fetch_savant_csv(SAVANT_BATTER_URL, BATTER_COL_MAP, "BAT")
         if not df.empty:
@@ -202,7 +203,7 @@ def fetch_bbref_projections(out_path: str = "data/bbref_projections.csv") -> pd.
     except Exception as e:
         print(f"  ⚠ Savant batters failed: {e}")
 
-    print("Fetching Baseball Savant pitcher xStats (2024)...")
+    print("Fetching Baseball Savant pitcher xStats (2025)...")
     try:
         df = fetch_savant_csv(SAVANT_PITCHER_URL, PITCHER_COL_MAP, "PIT")
         if not df.empty:
@@ -211,9 +212,9 @@ def fetch_bbref_projections(out_path: str = "data/bbref_projections.csv") -> pd.
     except Exception as e:
         print(f"  ⚠ Savant pitchers failed: {e}")
 
-    # Fallback: Baseball Reference 2024 actuals
+    # Fallback: Baseball Reference 2025 actuals
     if not all_dfs:
-        print("\nFalling back to Baseball Reference 2024 actuals...")
+        print("\nFalling back to Baseball Reference 2025 actuals...")
         try:
             df = fetch_bbref_table(BBREF_BATTER_URL, BATTER_COL_MAP, "BAT")
             if not df.empty:

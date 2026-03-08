@@ -11,6 +11,9 @@ Run:
 
 Note: FanGraphs has a public CSV export endpoint that doesn't require login.
 We use the 'steamer' system by default. Change PROJ_SYSTEM to 'zips' or 'atc' if preferred.
+
+The FanGraphs API automatically returns the upcoming season's projections (2026).
+No year parameter is needed — it defaults to the next season.
 """
 
 import requests
@@ -28,7 +31,7 @@ HEADERS = {
 }
 
 # FanGraphs CSV export URLs
-# pos=all gets all players; type=1 = batters, type=1 pitcher side varies
+# pos=all gets all players; stats=bat = batters, stats=pit = pitchers
 BATTER_URL = (
     "https://www.fangraphs.com/projections.aspx"
     f"?pos=all&stats=bat&type={PROJ_SYSTEM}&team=0&lg=all&players=0&download=1"
@@ -99,18 +102,13 @@ def fetch_json_api(url: str, col_map: dict, pos_label: str) -> pd.DataFrame:
         return pd.DataFrame()
 
     df = pd.DataFrame(data)
+
+    # Rename columns
     rename = {k: v for k, v in col_map.items() if k in df.columns}
     df = df.rename(columns=rename)
 
-    # Ensure Name column exists
     if "Name" not in df.columns:
-        for alt in ["PlayerName", "name", "player_name"]:
-            if alt in df.columns:
-                df = df.rename(columns={alt: "Name"})
-                break
-
-    if "Name" not in df.columns:
-        print(f"  ⚠ Could not find Name column in {pos_label} data. Columns: {list(df.columns)}")
+        print(f"  ⚠ No Name column found after rename. Columns: {list(df.columns)}")
         return pd.DataFrame()
 
     # Convert numerics
@@ -139,7 +137,7 @@ def fetch_csv_download(url: str, col_map: dict, pos_label: str) -> pd.DataFrame:
             df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
 
     df["Position"] = pos_label
-    return pd.DataFrame()
+    return df
 
 
 def fetch_fangraphs_projections(
@@ -151,7 +149,7 @@ def fetch_fangraphs_projections(
     batter_api  = f"https://www.fangraphs.com/api/projections?type={proj_system}&stats=bat&pos=all&team=0&players=0"
     pitcher_api = f"https://www.fangraphs.com/api/projections?type={proj_system}&stats=pit&pos=all&team=0&players=0"
 
-    print(f"Fetching FanGraphs {proj_system.upper()} batter projections...")
+    print(f"Fetching FanGraphs {proj_system.upper()} batter projections (2026)...")
     try:
         df_bat = fetch_json_api(batter_api, BATTER_COL_MAP, "BAT")
         if not df_bat.empty:
@@ -170,7 +168,7 @@ def fetch_fangraphs_projections(
         except Exception as e2:
             print(f"  ✗ CSV also failed: {e2}")
 
-    print(f"Fetching FanGraphs {proj_system.upper()} pitcher projections...")
+    print(f"Fetching FanGraphs {proj_system.upper()} pitcher projections (2026)...")
     try:
         df_pit = fetch_json_api(pitcher_api, PITCHER_COL_MAP, "PIT")
         if not df_pit.empty:
